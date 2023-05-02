@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+.container{
+  max-width: 1274px;
+  width: 100%;
+  margin: 0 auto;
+}
+body{
+  background: #212123;
+}
+.linia{
+  height: 2px;
+  width: 90%;
+  background: #FFFFFF;
+  margin: 20px 0 25px;
+}
+.liniaOne{
+  height: 2px;
+  width: 90%;
+  background: #FFFFFF;
+}
+
+
+@import "header";
+@import "one";
+@import "two";
+@import "boevik";
+@import "footer";

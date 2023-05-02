@@ -1,0 +1,28 @@
+.footer{
+  padding-bottom: 40px;
+  padding-top: 80px;
+  &__text1{
+    font-size: 20px;
+    font-weight: 600;
+    color: antiquewhite;
+  }
+  &__img{
+    width: 30px;
+  }
+  &__text2{
+    font-size: 20px;
+    font-weight: 600;
+    color: antiquewhite;
+  }
+  &__nav{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    column-gap: 220px;
+  }
+  &__box2{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
+}
